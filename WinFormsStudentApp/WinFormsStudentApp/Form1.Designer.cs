@@ -28,25 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtStudentName = new System.Windows.Forms.TextBox();
+            this.txtCourseName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // txtStudentName
+            // txtCourseName
             // 
-            this.txtStudentName.Location = new System.Drawing.Point(373, 190);
-            this.txtStudentName.Name = "txtStudentName";
-            this.txtStudentName.Size = new System.Drawing.Size(131, 22);
-            this.txtStudentName.TabIndex = 0;
+            this.txtCourseName.Location = new System.Drawing.Point(373, 190);
+            this.txtCourseName.Name = "txtCourseName";
+            this.txtCourseName.Size = new System.Drawing.Size(131, 22);
+            this.txtCourseName.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(261, 190);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 16);
+            this.label1.Size = new System.Drawing.Size(90, 16);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Student Name";
+            this.label1.Text = "Course Name";
             // 
             // Form1
             // 
@@ -54,7 +54,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtStudentName);
+            this.Controls.Add(this.txtCourseName);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -64,7 +64,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtStudentName;
+        private System.Windows.Forms.TextBox txtCourseName;
         private System.Windows.Forms.Label label1;
     }
 }
